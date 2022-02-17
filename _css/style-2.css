@@ -1,0 +1,197 @@
+/* links */
+
+a,
+.uk-link {
+  color: #0064b7;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover,
+.uk-link:hover {
+  color: #cb1b1b;
+  text-decoration: underline;
+}
+
+.text-muted-1 {
+  color: #6e7881;
+}
+
+.tab-content > .tab-pane {
+  display: none;
+}
+
+.tab-content > .active {
+  display: block;
+}
+
+.tab-contentOne > .tab-pane {
+  display: none;
+}
+
+.tab-contentOne > .active {
+  display: block;
+}
+
+.section-titles {
+  padding-top: 50px;
+}
+
+.nng-flower {
+  padding-top: 50px;
+}
+
+/* nav pills for visa info
+========================================================================= */
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(160, 2, 2, 0.897);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgb(24, 12, 12);
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(58, 33, 33, 0.582);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #495057;
+  background-color: #fff;
+  border-color: #E17272 #E17272 #E17272;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0.25rem;
+  border-color: #E17272;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #d24444;
+  border-color: #E17272 #E17272 #E17272;
+}
+
+/* ========================================================================
+   Component: Description list
+ ========================================================================== */
+/*
+ * Term
+ */
+.description-list > dt {
+  color: #333;
+  font-size: 0.875rem;
+  font-weight:600;
+  text-transform: uppercase;
+}
+.description-list > dt:nth-child(n+2) {
+  margin-top: 20px;
+}
+
+
+/* Navbar Container
+ ========================================================================== */
+.navbar-container:not(.uk-navbar-transparent) {
+  background: #fefefe;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #727373;
+}
+
+/*
+ * Hover
+ * Apply hover style also to focus state and if dropdown is opened
+ */
+.navbar-nav > li:hover > a,
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a.uk-open {
+  color: #E17272;
+  outline: none;
+}
+/* OnClick */
+.navbar-nav > li > a:active {
+  color: #E17272;
+}
+/* Active */
+.navbar-nav > li.uk-active > a {
+  color: #E17272;
+}
+
+
+/* Accordion
+=========================================================================== */
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.35rem;
+}
+
+.card-header {
+  font-size: h3;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(225, 114, 114, 0.274);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+  padding: 1.25rem;
+  background-color: #e9e9e9;
+}
+
+/* Accordion Content
+ ========================================================================== */
+
+/* list group items tabs
+=========================================================================== */
+.list-group-item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: rgb(225, 114, 114);
+  border-color: #333;
+}
+
+/* footer */
+.complementary {
+  background-color: #e8e5e5;
+  border-top-style: solid;
+  border-top-width: thin;
+  border-top-color: #cb1b1b;
+  font-weight: 200;
+  font-variant: small-caps;
+  padding-top: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.conti {
+  color: #cb1b1b;
+  font-weight: 200;
+}
